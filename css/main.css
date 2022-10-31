@@ -13,11 +13,6 @@
             outline: none;
         }
         
-        .custom-form .form-control:hover,
-        .custom-form .form-control:focus {
-            border-color: #5a6f80;
-        }
-        
         .custom-form label {
             margin-bottom: 10px;
         }
@@ -29,18 +24,6 @@
   CUSTOM FORM               
 -----------------------------------------*/
         
-        .custom-form .form-control,
-        .input-group-file {
-            background-color: #f0f8ff;
-            box-shadow: none;
-            border: 0;
-            color: #717275;
-            margin-bottom: 24px;
-            padding-top: 13px;
-            padding-bottom: 13px;
-            outline: none;
-        }
-        
         .form-blocks {
             background-color: #5c7762;
             box-shadow: none;
@@ -50,11 +33,6 @@
             padding-top: 13px;
             padding-bottom: 13px;
             outline: none;
-        }
-        
-        .custom-form .form-control:hover,
-        .custom-form .form-control:focus {
-            border-color: #5a6f80;
         }
         
         .custom-form label {
@@ -102,8 +80,7 @@
             border-color: transparent;
         }
         
-        .custom-form .form-control,
-        .input-group-file {
+        .custom-form .form-control {
             background-color: #f0f8ff;
             box-shadow: none;
             border: 0;
@@ -112,6 +89,21 @@
             padding-top: 13px;
             padding-bottom: 13px;
             outline: none;
+        }
+        
+        .form-control-1 {
+            background-color: #fff;
+            box-shadow: none;
+            border: 0;
+            color: #717275;
+            margin-bottom: 24px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            outline: none;
+        }
+        
+        .form-control-1:focus {
+            border-color: black;
         }
         
         .custom-form .form-control:hover,
